@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DEHelper</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_tv_title">Welcome to DEHelper</string>
+    <string name="main_tv_name">UserName :</string>
+    <string name="main_tv_psd">PassWord :</string>
+    <string name="main_tv_imei">IMEI :</string>
+    <string name="main_btn_login">Log in</string>
+
+    <string name="login_error">Error</string>
+    <string name="login_error_1">Username or password is incorrect</string>
+    <string name="login_error_2">Username can not match the IMEI</string>
+    <string name="login_error_3">Server problem!</string>
+    
+    <string name="dev_gl">General</string>
+    <string name="dev_sound">Sound</string>
+    <string name="dev_ec">Emergency number</string>
+    <string name="dev_sd">Speed dial</string>
+    
+    <string name="speed_dial_a">Speed Dial A</string>
+    <string name="speed_dial_b">Speed Dial B</string>
+    <string name="speed_dial_c">Speed Dial C</string>
+    <string name="speed_dial_d">Speed Dial D</string>
+</resources>

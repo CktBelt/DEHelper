@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corner"
+            android:padding="10dp"
+            android:text="@string/dev_gl"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFF6F6F6" >
+
+            <Spinner
+                android:id="@+id/sp_lang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corner"
+            android:padding="10dp"
+            android:text="@string/dev_sound"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFF6F6F6" >
+
+            <Spinner
+                android:id="@+id/sp_as"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corner"
+            android:padding="10dp"
+            android:text="@string/dev_ec"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFF6F6F6" >
+
+            <EditText
+                android:id="@+id/et_ec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:inputType="number"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corner"
+            android:padding="10dp"
+            android:text="@string/dev_sd"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFF6F6F6" 
+            android:orientation="vertical">
+
+            <LinearLayout 
+                style="@style/speed_dial_rect" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/speed_dial_a"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/tv_sd_name_a"
+                    android:layout_marginTop="5dp"
+					style="@style/speed_dial_text"/>
+                <TextView
+                    android:id="@+id/tv_sd_number_a"
+					style="@style/speed_dial_text"/>
+            </LinearLayout>
+
+            <LinearLayout 
+                style="@style/speed_dial_rect" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/speed_dial_b"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/tv_sd_name_b"
+                    android:layout_marginTop="5dp"
+					style="@style/speed_dial_text"/>
+                <TextView
+                    android:id="@+id/tv_sd_number_b"
+					style="@style/speed_dial_text"/>
+            </LinearLayout>
+
+            <LinearLayout 
+                style="@style/speed_dial_rect" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/speed_dial_c"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/tv_sd_name_c"
+                    android:layout_marginTop="5dp"
+					style="@style/speed_dial_text"/>
+                <TextView
+                    android:id="@+id/tv_sd_number_c"
+					style="@style/speed_dial_text"/>
+            </LinearLayout>
+
+            <LinearLayout 
+                style="@style/speed_dial_rect"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/speed_dial_d"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/tv_sd_name_d"
+                    android:layout_marginTop="5dp"
+					style="@style/speed_dial_text"/>
+                <TextView
+                    android:id="@+id/tv_sd_number_d"
+					style="@style/speed_dial_text"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
